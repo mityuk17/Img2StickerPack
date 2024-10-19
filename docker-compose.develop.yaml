@@ -1,7 +1,7 @@
 services:
   bot:
     build: .
-    command: watchfiles --sigint-timeout 10 --sigkill-timeout 3 'python3 bot' .
+    command: watchfiles --sigint-timeout 10 --sigkill-timeout 3 'python3 bot' bot
     depends_on:
       - db
       - redis

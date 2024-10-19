@@ -1,5 +1,5 @@
 from routers.general import router as general_router
-from routers.user import router as user_router
-from routers.admin import router as admin_router
+from routers.stickerpack_creation import router as stickerpack_creation_router
+from routers.stickerpack_management import router as stickerpack_management_router
 
-routers_list = [general_router, user_router, admin_router]
+routers_list = [general_router, stickerpack_management_router, stickerpack_creation_router]
